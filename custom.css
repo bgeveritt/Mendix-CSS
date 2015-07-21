@@ -1,0 +1,45 @@
+/*Custom Progress Indicator */
+.mx-progress-indicator {
+	width: 0px;
+	height: 0px;
+	margin: auto;
+	background: none;
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
+	-webkit-box-sizing: border-box;
+	border: solid 3px rgba(255, 255, 255, 0.2);
+	border-top-color: #FFF;
+	-webkit-animation: spin 1s infinite linear;
+	animation: spin 1s infinite linear;
+}
+
+.profile-phone .mx-progress,
+.profile-tablet .mx-progress {
+	border-radius: 0px;
+}
+
+.profile-phone .mx-progress-indicator,
+.profile-tablet .mx-progress-indicator {
+	position: fixed;
+	top: 40%;
+	left: 45%;
+}
+
+.profile-phone .mx-progress-message,
+.profile-tablet .mx-progress-message {
+	top: 35%;
+	position: relative;
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
