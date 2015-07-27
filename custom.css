@@ -1,3 +1,9 @@
+/* http://ux.stackexchange.com/questions/24916/best-practice-font-for-information-heavy-web-applications */
+body {
+    font-family: 'Segoe UI', 'Lucida Grande','Ubuntu','sans-serif';
+}
+
+
 /*Custom Progress Indicator */
 .mx-progress-indicator {
 	width: 0px;
