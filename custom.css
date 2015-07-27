@@ -59,3 +59,10 @@ body {
     -ms-user-select: none;
     user-select: none;
 }
+
+/* Fix padding for dropdowns */
+.form-control, 
+.readonly-input, 
+.disabled-form p {
+    padding: 0px 8px;
+}
